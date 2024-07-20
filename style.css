@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    font-family: "Montserrat", sans-serif;
+    background: url(download.gif);
+    background-size: cover;
+     
+}
+
+.icon {
+    padding-left: 30px;
+    width: 150px;
+}
+
+.iop   {
+    padding-right: 50px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav {
+    margin-right: auto;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    gap: 40px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.nav--link {
+    transition: transform 0.3s ease;
+    transition: text-shadow 0.3s ease;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    position: relative; 
+   }
+
+   .nav--link:hover {
+    transform: scale(1.1);
+   text-shadow: 4px 4px 6px rgb(255, 255, 255);
+   }
+
+
+article {
+    z-index: 1;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.452);
+    background-color:  rgba(0, 0, 0, 0.705);
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    width: 2400px;
+    height: 450px;
+    border-radius: 50px;
+    gap: 50px;
+}
+
+.plan { 
+    transition: transform 0.2s ease;
+    margin-left: 50px;
+    width: 400px;
+    
+}
+
+.plan:hover {
+    transform: scale(1.1);
+    
+}
+
+
+.img--planetas {
+    width: 250px;
+    border-radius: 30px;
+}
+
+
+.desenvolvimento {
+    color: white;
+    margin-right: 30px;
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prititulo {
+    font-size: 40px;
+}
+
+.planSobre {
+    padding-bottom: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+h6 {
+    margin-top:30px
+}
+
+.prititulo  { 
+    font-size:50px;
+}
+
+header {
+    flex-wrap: wrap;
+    box-shadow:0 -20px 30px rgba(0, 0, 0, 0.7);
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+  
+}
+
+.titulo--header {
+    margin-left: 100px;
+    padding-top: 40px;
+    color:aliceblue;
+    font-size: 90px;
+    font-weight: 30px;
+    text-shadow:2px 2px 4px rgb(0, 0, 0);
+ }
+
+ .sobre--header {
+    margin-right: 90px;
+    margin-left: 100px;
+    margin-top: 60px;
+    font-size: 25px;
+ }
+
+.vidaLa--div {
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    background-image: cover;
+    background-image: url(vidaFora.jpg);
+}
+
+
+.titulo--div {
+    margin-left: 100px;
+    padding-top: 40px;
+    color:aliceblue;
+    font-size: 90px;
+    font-weight: 30px;
+    text-shadow:2px 2px 4px rgb(0, 0, 0);
+}
+
+.sobre--div {
+    color: white;
+    margin-right: 90px;
+    margin-left: 100px;
+    margin-top: 60px;
+    font-size: 25px;
+    flex-wrap: wrap;
+}
+
+.verServiços {
+
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    color:white;
+    margin-top: 100px
+}
+
+.sobre--serviços {
+    margin-right: 90px;
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+
+.bnt--lugares {
+    background: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bnt--lugares:hover {
+    background: linear-gradient(45deg, #fdbb2d, #b21f1f, #1a2a6c);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+section {
+
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+.info {
+    transition: transform 0.3s ease;
+    transition: text-shadow 0.3s ease;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.info:hover {
+    transform: scale(1.1);
+    text-shadow: 4px 4px 6px rgb(255, 255, 255);
+}
