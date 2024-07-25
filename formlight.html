@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            background-image: url(img--input.jpg);
+            background-position: bottom center;
+            background-size: cover;
+            color: white;
+            font-family: "Ubuntu Sans", sans-serif;
+        }
+
+        a {
+        padding-left: 30px;
+        transition: transform 0.3s ease;
+        transition: text-shadow 0.3s ease;
+        text-decoration: none;
+        color: black;
+        font-weight: 200;
+        font-size: 30px;
+        }
+
+        a:hover {
+            
+            text-shadow: 4px 4px 6px rgb(0, 0, 0);
+        }
+        
+        form {
+            display: flex;
+            gap: 10px;
+            height: 1100px;
+            flex-direction: column;
+            margin: 50px;
+            width: 600px;
+            justify-content: center;
+            background-color: aliceblue;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        input {
+            outline: 0;
+            margin: 30px;
+            padding: 8px 8px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        button {
+            width: 100px;
+            background-color: white;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            margin-top: 80px;
+            border-radius: 10px;
+            margin-left: 30px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        select {
+            width: 150px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            margin-left: 30px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            font-size: 90px;
+            margin-left: 30px;
+            color: transparent;
+            background-image: linear-gradient(blue, Purple, #feb47b);
+            background-clip: text;
+        }
+        
+        input,
+        select,
+        button {
+            font-family: "Ubuntu Sans", sans-serif;
+            border: 1px;
+        }
+        
+        #estado {
+            padding-top: 8px;
+            padding-bottom: 8px;
+            width: 80px;
+        }
+        
+        @media (max-width: 1440px) {
+            body {
+                background-image: url(capa-programacao-noot-table\ \(1\).jpeg);
+                background-position: bottom center;
+            }
+            form {
+                width: 600px;
+            }
+            h1 {
+                margin-bottom: 10px;
+                font-size: 70px;
+            }
+            button {
+                margin-bottom: 200px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                background-color: rgba(165, 42, 42, 0.575);
+                height: 100vh;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            input {
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            select {
+                margin-bottom: 0;
+            }
+            button {
+                margin-bottom: 30px;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <form action="">
+
+
+        <a href="index.html">
+           Voltar
+        </a>
+
+
+        <h1>Faça Seu perfil</h1>
+
+
+        <input type="text" name="nome - usuario" id="nome - usuario" placeholder="Nome">
+
+
+        <input type="email" name="nome - email" id="nome - email" placeholder="Email">
+
+        <input type="password" name="nome - senha" id="nome - senha" placeholder="Senha">
+
+        <select name="esdado" id="estado">
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="PR">PR</option>
+        </select>
+
+        <input type="text" name="CEP" id="CEP" placeholder="CEP">
+
+
+
+        <button type="submit">Criar conta</button>
+
+
+
+
+
+    </form>
+
+
+
+</body>
+
+</html>
